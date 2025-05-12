@@ -1,0 +1,21 @@
+{
+    "en": {
+        "features": "Our features",
+        "challenge": "Our challenge",
+        "home": "Home",
+        "about": "About Us",
+        "services": "Services",
+        "contact": "Contact",
+        "If You Have Any Query, Feel Free To Contact Us":"If You Have Any Query, Feel Free To Contact Us."
+        
+    },
+    "it": {
+        "features": "Nostre funzionalità",
+        "challenge": "Nostro challenge",
+        "home": "Home",
+        "about": "Chi siamo",
+        "services": "Servizi",
+        "contact": "Contatti",
+        "If You Have Any Query, Feel Free To Contact Us":"In caso di domande, non esitate a contattarci."
+    }
+}

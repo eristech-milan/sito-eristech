@@ -121,6 +121,35 @@
             }
         }
     });
+    document.addEventListener("DOMContentLoaded", function () {
+        let lang = localStorage.getItem("lang") || "en";
+    
+        fetch("i18n/translations.json")
+            .then(response => response.json())
+            .then(data => {
+                window.translations = data; // Salva le traduzioni globalmente
+    
+                document.querySelectorAll("[data-key]").forEach(element => {
+                    element.textContent = translations[lang][element.dataset.key];
+                });
+    
+                // Event listener generico per tutte le bandiere
+                document.querySelectorAll("img[id^='flag-']").forEach(flag => {
+                    flag.addEventListener("click", function () {
+                        let selectedLang = this.id.split('-')[1]; // Estrae "en" o "it"
+                        changeLanguage(selectedLang);
+                    });
+                });
+            })
+            .catch(error => console.error("Errore nel caricamento:", error));
+    });
+    
+    function changeLanguage(newLang) {
+        localStorage.setItem("lang", newLang);
+        document.querySelectorAll("[data-key]").forEach(element => {
+            element.textContent = window.translations[newLang][element.dataset.key];
+        });
+    }
     
 })(jQuery);
 
