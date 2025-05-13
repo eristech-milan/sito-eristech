@@ -490,3 +490,7 @@ h6,
         margin-bottom: -75px;
     }
 }
+
+.logo {
+    max-height: 5rem;
+}
