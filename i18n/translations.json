@@ -8,7 +8,10 @@
         "contact": "Contact",
         "If You Have Any Query, Feel Free To Contact Us":"If You Have Any Query, Feel Free To Contact Us.",
         "TECHNOLOGY_INNOVATIONS":"Stay Updated on Technology Innovations",
-        "NEW_TECH":"Latest Tech News"
+        "NEW_TECH":"Latest Tech News",
+        "OUR_PARTNERS":"Our Patners",
+        "OUR_PARTNERS_DESCRIPTION":"Innovatori nel loro settore, con una visione condivisa per la qualità e l'innovazione. Insieme, creiamo soluzioni all'avanguardia per un futuro migliore."
+
         
     },
     "it": {
@@ -20,6 +23,8 @@
         "contact": "Contatti",
         "If You Have Any Query, Feel Free To Contact Us":"In caso di domande, non esitate a contattarci.",
         "TECHNOLOGY_INNOVATIONS":"Rimani aggiornato sulle innovazioni tecnologiche",
-        "NEW_TECH":"Ultime notizie tecnologiche"
+        "NEW_TECH":"Ultime notizie tecnologiche",
+        "OUR_PARTNERS":"Nostri partners",
+        "OUR_PARTNERS_DESCRIPTION":"Innovators in their field, with a shared vision for quality and innovation. Together, we create cutting-edge solutions for a better future."
     }
 }
