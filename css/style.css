@@ -349,15 +349,15 @@ h6,
 }
 
 
-/*** Testimonial ***/
-.testimonial-carousel .owl-dots {
+/*** clients ***/
+.clients-carousel .owl-dots {
     margin-top: 15px;
     display: flex;
     align-items: flex-end;
     justify-content: center;
 }
 
-.testimonial-carousel .owl-dot {
+.clients-carousel .owl-dot {
     position: relative;
     display: inline-block;
     margin: 0 5px;
@@ -368,21 +368,21 @@ h6,
     transition: .5s;
 }
 
-.testimonial-carousel .owl-dot.active {
+.clients-carousel .owl-dot.active {
     width: 30px;
     background: var(--primary);
 }
 
-.testimonial-carousel .owl-item.center {
+.clients-carousel .owl-item.center {
     position: relative;
     z-index: 1;
 }
 
-.testimonial-carousel .owl-item .testimonial-item {
+.clients-carousel .owl-item .clients-item {
     transition: .5s;
 }
 
-.testimonial-carousel .owl-item.center .testimonial-item {
+.clients-carousel .owl-item.center .clients-item {
     background: #FFFFFF !important;
     box-shadow: 0 0 30px #DDDDDD;
 }

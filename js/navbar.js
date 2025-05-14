@@ -59,8 +59,8 @@
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu m-0">
                             <a href="feature.html" class="dropdown-item">Our features</a>
-                            <a href="testimonial.html" class="dropdown-item">Our Clients</a>
-                            <a href="quote.html" class="dropdown-item" data-key="OUR_PARTNERS">Our Patners</a>
+                            <a href="clients.html" class="dropdown-item">Our Clients</a>
+                            <a href="partners.html" class="dropdown-item" data-key="OUR_PARTNERS">Our Patners</a>
                         </div>
                     </div>
                     <a href="contact.html" class="nav-item nav-link">Contact</a>
@@ -88,8 +88,8 @@
             "blog": "Blog - ErisTech",
             "detail": "Blog Details - ErisTech",
             "feature": "Features - ErisTech",
-            "testimonial": "Testimonials - ErisTech",
-            "quote": "Partners - ErisTech",
+            "clients": "Clients - ErisTech",
+            "partners": "Partners - ErisTech",
             "contact": "Contact Us - ErisTech"
         };
 
