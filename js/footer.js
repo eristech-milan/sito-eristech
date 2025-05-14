@@ -1,4 +1,4 @@
-(function() {
+(function () {
     const body = document.body;
     const footer = document.createElement("footer");
 
@@ -25,7 +25,6 @@
         </div>
     </div>
     <!-- Vendor End -->
-    
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light mt-5 wow fadeInUp" data-wow-delay="0.1s">

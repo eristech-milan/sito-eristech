@@ -1,4 +1,4 @@
-(function() {
+(function () {
     const body = document.body;
     const header = document.createElement("div");
 
@@ -9,7 +9,6 @@
         <div class="spinner"></div>
     </div>
     <!-- Spinner End -->
-    
     
     <!-- Topbar Start -->
     <div class="container-fluid bg-dark px-5 d-none d-lg-block">
@@ -39,7 +38,6 @@
         </div>
     </div>
     <!-- Topbar End -->
-    
     
     <!-- Navbar & Carousel Start -->
     <div class="container-fluid position-relative p-0">
@@ -78,9 +76,9 @@
     body.insertBefore(header, body.firstChild);
 
     // 🔹 Aggiorna il titolo della scheda del browser dinamicamente
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function () {
         let pageName = document.location.pathname.split("/").pop().replace(".html", "");
-        
+
         const pageTitles = {
             "index": "Home - ErisTech",
             "about": "About Us - ErisTech",
