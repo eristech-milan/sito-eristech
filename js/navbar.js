@@ -54,14 +54,14 @@
                     <a href="about.html" class="nav-item nav-link" data-key="about">About</a>
                     <a href="service.html" class="nav-item nav-link" data-key="services">Services</a>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-key="PAGES">Pages</a>
                         <div class="dropdown-menu m-0">
                             <a href="feature.html" class="dropdown-item">Our features</a>
                             <a href="clients.html" class="dropdown-item">Our Clients</a>
                             <a href="partners.html" class="dropdown-item" data-key="OUR_PARTNERS">Our Patners</a>
                         </div>
                     </div>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="contact.html" class="nav-item nav-link" data-key="contact">Contact</a>
                     <a href="blog.html" class="nav-item nav-link">Blog</a>
                 </div>
                 <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i
