@@ -124,7 +124,7 @@
     document.addEventListener("DOMContentLoaded", function () {
         let lang = localStorage.getItem("lang") || "en";
 
-        fetch("i18n/translations.json")
+        fetch("../i18n/translations.json")
             .then(response => response.json())
             .then(data => {
                 window.translations = data; // Salva le traduzioni globalmente
