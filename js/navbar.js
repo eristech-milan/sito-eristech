@@ -64,8 +64,6 @@
                     <a href="contact.html" class="nav-item nav-link" data-key="contact">Contact</a>
                     <a href="blog.html" class="nav-item nav-link">Blog</a>
                 </div>
-                <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i
-                        class="fa fa-search"></i></butaton>
                 <img src="../i18n/flags/uk.png" id="flag-en" alt="English" style="width:30px; cursor:pointer; margin:5px;">
                 <img src="../i18n/flags/it.png" id="flag-it" alt="Italiano" style="width:30px; cursor:pointer; margin:5px;">
             </div>
