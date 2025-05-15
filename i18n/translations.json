@@ -6,7 +6,7 @@
         "about": "About Us",
         "services": "Services",
         "contact": "Contact",
-        "If You Have Any Query, Feel Free To Contact Us":"If You Have Any Query, Feel Free To Contact Us.",
+        "If You Have Any Query, Feel Free To Contact Us":"If You Have Any Question, Feel Free To Contact Us.",
         "TECHNOLOGY_INNOVATIONS":"Stay Updated on Technology Innovations",
         "NEW_TECH":"Latest Tech News",
         "OUR_PARTNERS":"Our clients",
@@ -29,7 +29,11 @@
         "PROFESSIONAL_STAFF": "Professional staff",
         "CALL_TO_ASK_ANY_QUESTION": "Call for more information",
         "OUR_SERVICES": "Our services",
-        "CUSTOM_SOLUTIONS": "Custom IT Solutions for Your Successful Business"
+        "CUSTOM_SOLUTIONS": "Custom IT Solutions for Your Successful Business",
+        "CONTACT_US": "Contact us",
+        "CALL_FOR_QUEST": "Call to ask any question",
+        "INFO_EMAIL": "Email us for more info",
+        "VISIT_OFFICE": "Visit our office"
     },
     "it": {
         "features": "Nostre funzionalità",
@@ -39,7 +43,7 @@
         "about": "Chi siamo",
         "services": "Servizi",
         "contact": "Contatti",
-        "If You Have Any Query, Feel Free To Contact Us":"In caso di domande, non esitate a contattarci.",
+        "If You Have Any Query, Feel Free To Contact Us":"In caso di domande, non esitare a contattarci.",
         "TECHNOLOGY_INNOVATIONS":"Rimani aggiornato sulle innovazioni tecnologiche",
         "NEW_TECH":"Ultime notizie tecnologiche",
         "OUR_PARTNERS":"I nostri clienti",
@@ -61,6 +65,10 @@
         "PROFESSIONAL_STAFF": "Staff professionale",
         "FAIR_PRICES": "Prezzi vantaggiosi",
         "CALL_TO_ASK_ANY_QUESTION": "Chiama qui per ulteriori informazioni",
-        "CUSTOM_SOLUTIONS": "Soluzioni IT custom per il tuo business"
+        "CUSTOM_SOLUTIONS": "Soluzioni IT custom per il tuo business",
+        "CONTACT_US": "Contattaci",
+        "CALL_FOR_QUEST": "Chiama per chiedere informazioni",
+        "INFO_EMAIL": "Email per informazioni",
+        "VISIT_OFFICE": "Visita il nostro ufficio"
     }
 }
