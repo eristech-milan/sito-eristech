@@ -56,11 +56,9 @@
                                 <i class="bi bi-telephone text-primary me-2"></i>
                                 <p class="mb-0">+39 0245490584</p>
                             </div>
-                            <div class="d-flex mt-4">
-                                <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
-                                <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
-                                <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
-                                <a class="btn btn-primary btn-square" href="#"><i class="fab fa-instagram fw-normal"></i></a>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-linkedin text-primary me-2"></i>
+                                <p class="mb-0">Inserire link</p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
