@@ -15,7 +15,7 @@
                         <p class="mt-3 mb-4" data-key="FOOTER_CAPTION"></p>
                     </div>
                 </div>
-                <div class="footer-contacts">
+                <div class="col footer-contacts">
                     <div class="col-lg-4 col-md-12 pt-5 mb-5">
                         <div class="section-title section-title-sm position-relative pb-3 mb-4">
                             <h3 class="text-light mb-0" data-key="GET_IN_TOUCH"></h3>
