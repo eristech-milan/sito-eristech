@@ -198,7 +198,7 @@
                     loop: true,
                     items: 3,
                     margin: 20,
-                    nav: true,
+                    nav: false,
                     dots: false
                 });
             })
