@@ -22,7 +22,12 @@
         "BUSINESS_GROWTH": "We Are Here to Grow Your Business",
         "LATEST_NEWS": "Latest tech news",
         "OUR_PARTNERS_DESCRIPTION":"Innovators in their field, with a shared vision for quality and innovation. Together, we create cutting-edge solutions for a better future.",
-        "READ_ARTICLES": "Read The Latest Articles"
+        "READ_ARTICLES": "Read The Latest Articles",
+        "IT_SOLUTION": "The Best IT Solution With",
+        "YEARS_OF_EXP": "Years of Experience",
+        "ABOUT_DESCR": "Eris Tech is a young and dynamic company that has set quality of work and customer satisfaction as its primary goals. It specializes in the design, implementation, and integration of corporate information services and is able to offer high-quality IT consulting services. It supports businesses and individuals in innovating their operations by providing consulting and services for the management of IT infrastructure and digital content. The experience gained over years of work in various complex environments allows Eris Tech to assist companies throughout their decision-making, technological, and business processes. The core of the company is its people and their skills; within this context, the company continuously evolves professionally and stays up to date with technological advancements.",
+        "PROFESSIONAL_STAFF": "Professional staff",
+        "CALL_TO_ASK_ANY_QUESTION": "Chiama qui per ulteriori informazioni"
     },
     "it": {
         "features": "Nostre funzionalità",
@@ -47,6 +52,12 @@
         "WHY_CHOOSE_US": "Perchè sceglierci",
         "BUSINESS_GROWTH": "Siamo qui per aiutarti nella crescita del tuo business",
         "LATEST_NEWS": "Ultime notizie del mondo tech",
-        "READ_ARTICLES": "Leggi gli ultimi articoli"
+        "READ_ARTICLES": "Leggi gli ultimi articoli",
+        "IT_SOLUTION": "La miglior soluzione nell'IT con",
+        "YEARS_OF_EXP": "anni di esperienza",
+        "ABOUT_DESCR": "Eris Tech è una società giovane e dinamica che ha posto come propri obiettivi la qualità del lavoro e la soddisfazione della propria clientela. È specializzata nella progettazione, realizzazione ed integrazione di servizi informativi aziendali ed è in grado di offrire un qualificato servizio di consulenza IT. Aiuta le aziende ed i privati a innovare il proprio business, offrendo consulenza e servizi per la gestione dell'infrastruttura e dei contenuti informatici. L'esperienza maturata in anni di lavoro presso realtà differenti e complesse al servizio dei clienti, le permette di affiancare le aziende lungo i processi decisionali, tecnologici e di business. Il cuore dell'azienda sono le persone che vi lavorano e le loro competenze,è in tale contesto che l'azienda si muove in un continuo processo di evoluzione professionale ed aggiornamento tecnologico.",
+        "PROFESSIONAL_STAFF": "Staff professionale",
+        "FAIR_PRICES": "Prezzi vantaggiosi",
+        "CALL_TO_ASK_ANY_QUESTION": "Chiama qui per ulteriori informazioni"
     }
 }

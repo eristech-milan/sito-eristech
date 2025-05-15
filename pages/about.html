@@ -30,24 +30,25 @@
                 <div class="col-lg-7">
                     <div class="section-title position-relative pb-3 mb-5">
                         <h5 class="fw-bold text-primary text-uppercase" data-key="about">About Us</h5>
-                        <h1 class="mb-0">The Best IT Solution With 10 Years of Experience</h1>
+                        <h1 class="mb-0">
+                            <span data-key="IT_SOLUTION"></span>
+                            <span id="yearsOfExp"></span>
+                            <span data-key="YEARS_OF_EXP"></span>
+                        </h1>
                     </div>
-                    <p class="mb-4">Eris Tech è una società giovane e dinamica che ha posto come propri obiettivi la qualità del
-                        lavoro e la soddisfazione della propria clientela. È specializzata nella progettazione,
-                        realizzazione ed integrazione di servizi informativi aziendali ed è in grado di offrire un
-                        qualificato servizio di consulenza IT. Aiuta le aziende ed i privati a innovare il proprio
-                        business, offrendo consulenza e servizi per la gestione dell'infrastruttura e dei contenuti
-                        informatici. L'esperienza maturata in anni di lavoro presso realtà differenti e complesse al
-                        servizio dei clienti, le permette di affiancare le aziende lungo i processi decisionali,
-                        tecnologici e di business. Il cuore dell'azienda sono le persone che vi lavorano e le loro
-                        competenze,è in tale contesto che l'azienda si muove in un continuo processo di evoluzione
-                        professionale ed aggiornamento tecnologico.</p>
+                    <p class="mb-4" data-key="ABOUT_DESCR"></p>
                     <div class="row g-0 mb-3">
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Professional Staff</h5>
+                            <h5 class="mb-3">
+                                <i class="fa fa-check text-primary me-3"></i>
+                                <span data-key="PROFESSIONAL_STAFF"></span>
+                            </h5>
                         </div>
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Professional Staff</h5>
+                            <h5 class="mb-3">
+                                <i class="fa fa-check text-primary me-3"></i>
+                                <span data-key="FAIR_PRICES"></span>
+                            </h5>
                         </div>
                     </div>
                     <div class="d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s">
@@ -56,7 +57,7 @@
                             <i class="fa fa-phone-alt text-white"></i>
                         </div>
                         <div class="ps-4">
-                            <h5 class="mb-2">Call to ask any question</h5>
+                            <h5 class="mb-2" data-key="CALL_TO_ASK_ANY_QUESTION"></h5>
                             <h4 class="text-primary mb-0">+39 0245490584</h4>
                         </div>
                     </div>
@@ -85,6 +86,13 @@
     <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
 
     <!-- Template Javascript -->
+     <script>
+        const span = document.getElementById("yearsOfExp");
+
+        if(span) {
+            span.innerText = new Date().getFullYear() - 2015;
+        }
+     </script>
     <script src="../js/main.js"></script>
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
 </body>
