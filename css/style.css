@@ -565,3 +565,8 @@ footer .logo {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+.footer-contacts {
+    display: grid;
+    place-items: center;
+}

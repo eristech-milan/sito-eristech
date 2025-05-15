@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Creazione favicon dinamica
     const favicon = document.createElement("link");
     favicon.rel = "icon";
-    favicon.href = pageName === "services.html" || pageName === "about.html" ? "img/logo.png" : "img/favicon.ico";
+    favicon.href = "../img/favicon.png";
     head.appendChild(favicon);
 
     // Aggiunta degli elementi comuni al `<head>`
