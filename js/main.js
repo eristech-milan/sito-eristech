@@ -164,12 +164,24 @@
 
                 let newsItems = "";
                 data.articles.forEach(article => {
+                    const date = new Date(article.publishedAt).toDateString();
+
                     newsItems += `
-                        <div class="item">
-                            <img src="${article.urlToImage || 'placeholder.jpg'}" alt="News Image">
-                            <h3>${article.title}</h3>
-                            <p>${article.description ? article.description.substring(0, 100) + "..." : 'No description available'}</p>
-                            <a href="${article.url}" target="_blank">Read more</a>
+                        <div class="col wow slideInUp" data-wow-delay="0.3s">
+                            <div class="blog-item bg-light rounded overflow-hidden">
+                                <div class="blog-img position-relative overflow-hidden">
+                                    <img class="img-fluid" src="${article.urlToImage || 'placeholder.jpg'}" alt="News image">
+                                </div>
+                                <div class="p-4">
+                                    <div class="d-flex mb-3">
+                                        <small class="me-3"><i class="far fa-user text-primary me-2"></i>${article.author ?? 'Unkown'}</small>
+                                        <small><i class="far fa-calendar-alt text-primary me-2"></i>${date}</small>
+                                    </div>
+                                    <h4 class="mb-3 truncate">${article.title}</h4>
+                                    <p class="truncate">${article.description ?? 'No description available.'}</p>
+                                    <a class="text-uppercase" href="${article.url}">Read More <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
                         </div>
                     `;
                 });
