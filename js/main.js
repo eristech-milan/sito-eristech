@@ -168,18 +168,22 @@
 
                     newsItems += `
                         <div class="col wow slideInUp" data-wow-delay="0.3s">
-                            <div class="blog-item bg-light rounded overflow-hidden">
-                                <div class="blog-img position-relative overflow-hidden">
-                                    <img class="img-fluid" src="${article.urlToImage || 'placeholder.jpg'}" alt="News image">
+                            <div class="blog-item bg-light rounded overflow-hidden h-100 d-flex flex-column">
+                                <div class="blog-img position-relative overflow-hidden" style="height: 200px;">
+                                    <img class="img-fluid h-100 object-fit-cover" src="${article.urlToImage || 'placeholder.jpg'}" alt="News image">
                                 </div>
-                                <div class="p-4">
+                                <div class="p-4 d-flex flex-column flex-grow-1">
                                     <div class="d-flex mb-3">
-                                        <small class="me-3"><i class="far fa-user text-primary me-2"></i>${article.author ?? 'Unkown'}</small>
-                                        <small><i class="far fa-calendar-alt text-primary me-2"></i>${date}</small>
+                                        <small class="me-3">
+                                            <i class="far fa-user text-primary me-2"></i>${article.author ?? 'Unkown'}
+                                        </small>
+                                        <small>
+                                            <i class="far fa-calendar-alt text-primary me-2"></i>${date}
+                                        </small>
                                     </div>
-                                    <h4 class="mb-3 truncate">${article.title}</h4>
-                                    <p class="truncate">${article.description ?? 'No description available.'}</p>
-                                    <a class="text-uppercase" href="${article.url}">Read More <i class="bi bi-arrow-right"></i></a>
+                                    <h4 class="mb-3 truncate line-clamp-2">${article.title}</h4>
+                                    <p class="truncate line-clamp-3">${article.description ?? 'No description available.'}</p>
+                                    <a class="text-uppercase mt-auto" href="${article.url}">Read More <i class="bi bi-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>

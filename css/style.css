@@ -539,3 +539,25 @@ h6,
   -webkit-line-clamp: 3;
   text-overflow: ellipsis;
 }
+
+/* Immagine con altezza uniforme */
+.object-fit-cover {
+  object-fit: cover;
+}
+
+/* Troncamento multi-linea */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
