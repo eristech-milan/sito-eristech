@@ -43,6 +43,7 @@
                 </div>
                 <img src="../i18n/flags/uk.png" id="flag-en" alt="English" style="width:30px; cursor:pointer; margin:5px;">
                 <img src="../i18n/flags/it.png" id="flag-it" alt="Italiano" style="width:30px; cursor:pointer; margin:5px;">
+                <img src="../i18n/flags/fr.png" id="flag-fr" alt="Francese" style="width:30px; cursor:pointer; margin:5px;">
             </div>
         </nav>
     </div>
