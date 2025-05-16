@@ -33,7 +33,11 @@
         "CONTACT_US": "Contact us",
         "CALL_FOR_QUEST": "Call to ask any question",
         "INFO_EMAIL": "Email us for more info",
-        "VISIT_OFFICE": "Visit our office"
+        "VISIT_OFFICE": "Visit our office",
+        "INNOVATION": "Innovation",
+        "RELIABILITY": "Reliability",
+        "SKILLS": "Skills",
+        "EVOLVE": "Evolve strategy"
     },
     "it": {
         "features": "Nostre funzionalità",
@@ -69,7 +73,11 @@
         "CONTACT_US": "Contattaci",
         "CALL_FOR_QUEST": "Chiama per chiedere informazioni",
         "INFO_EMAIL": "Email per informazioni",
-        "VISIT_OFFICE": "Visita il nostro ufficio"
+        "VISIT_OFFICE": "Visita il nostro ufficio",
+        "INNOVATION": "Innovazione",
+        "RELIABILITY": "Affidabilità",
+        "SKILLS": "Competenze",
+        "EVOLVE": "Capacità di evolversi con te"
     },
     "fr": {
         "features": "Nos fonctionnalités",
@@ -105,6 +113,10 @@
         "CONTACT_US": "Contactez-nous",
         "CALL_FOR_QUEST": "Appelez pour toute question",
         "INFO_EMAIL": "Envoyez-nous un e-mail pour plus d'informations",
-        "VISIT_OFFICE": "Visitez nos bureaux"
+        "VISIT_OFFICE": "Visitez nos bureaux",
+        "INNOVATION": "Innovazione",
+        "RELIABILITY": "Affidabilità",
+        "SKILLS": "Competenze",
+        "EVOLVE": "Capacità di evolversi con te"
     }
 }
