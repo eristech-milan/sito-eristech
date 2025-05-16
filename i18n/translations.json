@@ -37,7 +37,11 @@
         "INNOVATION": "Innovation",
         "RELIABILITY": "Reliability",
         "SKILLS": "Skills",
-        "EVOLVE": "Evolve strategy"
+        "EVOLVE": "Evolve strategy",
+        "INNOVATION_DESC": "Modern, tailored solutions designed to anticipate future needs.",
+        "RELIABILITY_DESC": "We meet deadlines and goals, building strong and lasting relationships.",
+        "SKILLS_DESC": "Skilled and experienced team, ready to tackle any challenge with precision.",
+        "EVOLVE_DESC": "We grow with your projects, adapting with flexibility and foresight."
     },
     "it": {
         "features": "Nostre funzionalità",
@@ -77,7 +81,11 @@
         "INNOVATION": "Innovazione",
         "RELIABILITY": "Affidabilità",
         "SKILLS": "Competenze",
-        "EVOLVE": "Capacità di evolversi con te"
+        "EVOLVE": "Capacità di evolversi con te",
+        "INNOVATION_DESC": "Soluzioni moderne e su misura, pensate per anticipare le esigenze future.",
+        "RELIABILITY_DESC": "Rispettiamo tempi e obiettivi, costruendo relazioni solide e durature.",
+        "SKILLS_DESC": "Team esperto e qualificato, pronto a risolvere ogni sfida con precisione.",
+        "EVOLVE_DESC": "Cresciamo con i tuoi progetti, adattandoci con flessibilità e visione."
     },
     "fr": {
         "features": "Nos fonctionnalités",
@@ -117,6 +125,10 @@
         "INNOVATION": "Innovazione",
         "RELIABILITY": "Affidabilità",
         "SKILLS": "Competenze",
-        "EVOLVE": "Capacità di evolversi con te"
+        "EVOLVE": "Capacità di evolversi con te",
+        "INNOVATION_DESC": "Des solutions modernes et sur mesure, pensées pour anticiper les besoins futurs.",
+        "RELIABILITY_DESC": "Nous respectons délais et objectifs, en bâtissant des relations durables et solides.",
+        "SKILLS_DESC": "Équipe expérimentée et qualifiée, prête à relever chaque défi avec précision.",
+        "EVOLVE_DESC": "Nous évoluons avec vos projets, en nous adaptant avec souplesse et vision."
     }
 }
