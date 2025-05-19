@@ -43,7 +43,9 @@
         "SKILLS_DESC": "Skilled and experienced team, ready to tackle any challenge with precision.",
         "EVOLVE_DESC": "We grow with your projects, adapting with flexibility and foresight.",
         "SHARE_CAPITAL": "Share capital",
-        "P_IVA": "VAT number"
+        "P_IVA": "VAT number",
+        "COOKIES_MODAL_TITLE": "Cookies info",
+        "COOKIES_MODAL_DESC": "This site uses only necessary technical cookies for the proper functioning of the pages. Profiling cookies or cookies for marketing purposes are not used."
     },
     "it": {
         "features": "Nostre funzionalità",
@@ -89,7 +91,9 @@
         "SKILLS_DESC": "Team esperto e qualificato, pronto a risolvere ogni sfida con precisione.",
         "EVOLVE_DESC": "Cresciamo con i tuoi progetti, adattandoci con flessibilità e visione.",
         "SHARE_CAPITAL": "Capitale sociale",
-        "P_IVA": "P. IVA"
+        "P_IVA": "P. IVA",
+        "COOKIES_MODAL_TITLE": "Uso dei cookie",
+        "COOKIES_MODAL_DESC": "Questo sito utilizza solo cookie tecnici necessari al corretto funzionamento delle pagine. Non vengono utilizzati cookie di profilazione o per finalità di marketing."
     },
     "fr": {
         "features": "Nos fonctionnalités",
@@ -135,6 +139,8 @@
         "SKILLS_DESC": "Équipe expérimentée et qualifiée, prête à relever chaque défi avec précision.",
         "EVOLVE_DESC": "Nous évoluons avec vos projets, en nous adaptant avec souplesse et vision.",
         "SHARE_CAPITAL": "Share capital",
-        "P_IVA": "VAT number"
+        "P_IVA": "VAT number",
+        "COOKIES_MODAL_TITLE": "Cookies info",
+        "COOKIES_MODAL_DESC": "Questo sito utilizza solo cookie tecnici necessari al corretto funzionamento delle pagine. Non vengono utilizzati cookie di profilazione o per finalità di marketing."
     }
 }
