@@ -25,9 +25,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const metaKeywords = `<meta content="Free HTML Templates" name="keywords">`;
     const metaDescription = `<meta content="Free HTML Templates" name="description">`;
 
-    const fonts = `<link rel="preconnect" href="https://fonts.googleapis.com">
+    /* const fonts = `<link rel="preconnect" href="https://fonts.googleapis.com">
                    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-                   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">`;
+                   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">`; */
 
     const icons = `<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
                    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">`;
@@ -35,8 +35,10 @@ document.addEventListener("DOMContentLoaded", function () {
     const stylesheets = `<link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
                          <link href="../lib/animate/animate.min.css" rel="stylesheet">
                          <link href="../css/bootstrap.min.css" rel="stylesheet">
-                         <link href="../css/style.css" rel="stylesheet">`;
+                         <link href="../css/style.css" rel="stylesheet">;
+                         <link href="../css/nunito.css" rel="stylesheet">;
+                         <link href="../css/rubik.css" rel="stylesheet">`;
 
     // Inserimento nel `<head>`
-    head.innerHTML += metaViewport + metaKeywords + metaDescription + fonts + icons + stylesheets;
+    head.innerHTML += metaViewport + metaKeywords + metaDescription + icons + stylesheets;
 });
