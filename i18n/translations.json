@@ -50,7 +50,19 @@
         "INSURANCE": "Insurance",
         "EMERGENCY": "Emergency",
         "ENERGY": "Energy",
-        "FIELDS": "Fields"
+        "FIELDS": "Fields",
+        "BUSINESS_INTELLIGENCE": "Business intelligence",
+        "QUALITY_ASSURANCE": "Quality assurance",
+        "CLOUD_ENGINEERING": "Cloud engineering",
+        "DEV_OPS": "DevOps",
+        "WEB_DEV": "Web development",
+        "SWE": "Software engineering",
+        "QA_DESC": "We ensure software quality through functional, automated, and regression testing.",
+        "CLOUD_ENG_DESC": "We design scalable and secure cloud infrastructures for all your IT needs.",
+        "DEV_OPS_DESC": "We automate CI/CD processes and optimize the software lifecycle.",
+        "WEB_DEV_DESC": "We build modern and properly designed systems for an effective user experience.",
+        "SWE_DESC": "We develop custom software solutions that are robust, scalable, and high-performing.",
+        "BI_DESC": "We turn data into strategic insights for smarter business decisions."
     },
     "it": {
         "features": "Nostre funzionalità",
@@ -103,7 +115,19 @@
         "INSURANCE": "Assicurazioni",
         "EMERGENCY": "Emergenze",
         "ENERGY": "Energia",
-        "FIELDS": "Settori"
+        "FIELDS": "Settori",
+        "BUSINESS_INTELLIGENCE": "Business intelligence",
+        "QUALITY_ASSURANCE": "Quality assurance",
+        "CLOUD_ENGINEERING": "Cloud engineering",
+        "DEV_OPS": "DevOps",
+        "WEB_DEV": "Sviluppo web",
+        "SWE": "Software engineering",
+        "QA_DESC": "Garantiamo la qualità del software tramite test funzionali, automatici e di regressione.",
+        "CLOUD_ENG_DESC": "Progettiamo infrastrutture cloud scalabili e sicure per supportare ogni esigenza IT.",
+        "DEV_OPS_DESC": "Automatizziamo i processi CI/CD e ottimizziamo il ciclo di vita del software.",
+        "WEB_DEV_DESC": "Sviluppiamo interfacce moderne e responsive per esperienze utente intuitive ed efficaci.",
+        "SWE_DESC": "Realizziamo soluzioni software su misura, robuste, scalabili e ad alte prestazioni.",
+        "BI_DESC": "Trasformiamo i dati in informazioni strategiche per decisioni aziendali più efficaci."
     },
     "fr": {
         "features": "Nos fonctionnalités",
@@ -156,6 +180,18 @@
         "INSURANCE": "Insurance",
         "EMERGENCY": "Emergency",
         "ENERGY": "Energy",
-        "FIELDS": "Fields"
+        "FIELDS": "Fields",
+        "BUSINESS_INTELLIGENCE": "Business intelligence",
+        "QUALITY_ASSURANCE": "Quality assurance",
+        "CLOUD_ENGINEERING": "Cloud engineering",
+        "DEV_OPS": "DevOps",
+        "WEB_DEV": "Web development",
+        "SWE": "Software engineering",
+        "QA_DESC": "Nous assurons la qualité logicielle par des tests fonctionnels, automatisés et de régression.",
+        "CLOUD_ENG_DESC": "Nous concevons des infrastructures cloud évolutives et sécurisées pour vos besoins IT.",
+        "DEV_OPS_DESC": "Nous automatisons les processus CI/CD et optimisons le cycle de vie logiciel.",
+        "WEB_DEV_DESC": "Nous créons des interfaces modernes et réactives pour une expérience utilisateur optimale.",
+        "SWE_DESC": "Nous développons des solutions logicielles sur mesure, robustes et performantes.",
+        "BI_DESC": "Nous transformons les données en informations stratégiques pour de meilleures décisions."
     }
 }
