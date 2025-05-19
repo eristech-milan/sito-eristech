@@ -12,7 +12,10 @@
                         <a href="index.html" class="navbar-brand">
                             <img class="logo" src="../img/logo.png" alt="Eris Tech logo">
                         </a>
-                        <p class="mt-3 mb-4" data-key="FOOTER_CAPTION"></p>
+                        <p class="mt-3 mb-4">
+                            "<span data-key="FOOTER_CAPTION"></span>"
+                             - Henry Ford
+                        </p>
                     </div>
                 </div>
                 <div class="col footer-contacts">
