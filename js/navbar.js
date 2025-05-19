@@ -15,15 +15,17 @@
         <div class="row gx-0">
             <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>Viale Monza 1,
-                        Milano</small>
+                    <small class="me-3 text-light">
+                        <i class="fa fa-map-marker-alt me-2"></i>
+                        <a target="_blank" class="text-light" href="https://maps.app.goo.gl/PkgcBbdihJV3njyz6">Viale Monza 1, Milano</a>
+                    </small>
                     <small class="me-3 text-light">
                         <i class="fa fa-phone-alt me-2"></i>
-                        <a class="text-light" href="tel:+390245490584">+390245490584</a>
+                        <a target="_blank" class="text-light" href="tel:+390245490584">+390245490584</a>
                     </small>
                     <small class="text-light">
                         <i class="fa fa-envelope-open me-2"></i>
-                        <a class="text-light" href="mailto:info@eristech.it">info@eristech.it</a>
+                        <a target="_blank" class="text-light" href="mailto:info@eristech.it">info@eristech.it</a>
                     </small>
                 </div>
             </div>

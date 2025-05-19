@@ -49,7 +49,7 @@
         "FINANCIAL_SERVICES": "Financial services",
         "INSURANCE": "Insurance",
         "EMERGENCY": "Emergency",
-        "ENERGY": "Energy",
+        "ENERGY": "Energy & Utility",
         "FACILITY_MANAGEMENT": "Facility & asset management",
         "DIGITAL_SERVICES": "Digital services",
         "FIELDS": "Fields",
@@ -64,7 +64,8 @@
         "DEV_OPS_DESC": "We automate CI/CD processes and optimize the software lifecycle.",
         "WEB_DEV_DESC": "We build modern and properly designed systems for an effective user experience.",
         "SWE_DESC": "We develop custom software solutions that are robust, scalable, and high-performing.",
-        "BI_DESC": "We turn data into strategic insights for smarter business decisions."
+        "BI_DESC": "We turn data into strategic insights for smarter business decisions.",
+        "FIELDS_SUB": "Our IT expertise serving a wide range of industries."
     },
     "it": {
         "features": "Nostre funzionalità",
@@ -116,7 +117,7 @@
         "FINANCIAL_SERVICES": "Financial services",
         "INSURANCE": "Insurance",
         "EMERGENCY": "Emergency",
-        "ENERGY": "Energy",
+        "ENERGY": "Energy & Utility",
         "FACILITY_MANAGEMENT": "Facility & asset management",
         "DIGITAL_SERVICES": "Digital services",
         "FIELDS": "Settori",
@@ -131,7 +132,8 @@
         "DEV_OPS_DESC": "Automatizziamo i processi CI/CD e ottimizziamo il ciclo di vita del software.",
         "WEB_DEV_DESC": "Sviluppiamo sistemi moderni e manutenibili per garantire esperienze utente intuitive ed efficaci.",
         "SWE_DESC": "Realizziamo soluzioni software su misura, robuste, scalabili e ad alte prestazioni.",
-        "BI_DESC": "Trasformiamo i dati in informazioni strategiche per decisioni aziendali più efficaci."
+        "BI_DESC": "Trasformiamo i dati in informazioni strategiche per decisioni aziendali più efficaci.",
+        "FIELDS_SUB": "a nostra esperienza IT al servizio di diversi mercati."
     },
     "fr": {
         "features": "Nos fonctionnalités",
@@ -183,7 +185,7 @@
         "FINANCIAL_SERVICES": "Financial services",
         "INSURANCE": "Insurance",
         "EMERGENCY": "Emergency",
-        "ENERGY": "Energy",
+        "ENERGY": "Energy & Utility",
         "FACILITY_MANAGEMENT": "Facility & asset management",
         "DIGITAL_SERVICES": "Digital services",
         "FIELDS": "Fields",
@@ -198,6 +200,7 @@
         "DEV_OPS_DESC": "Nous automatisons les processus CI/CD et optimisons le cycle de vie logiciel.",
         "WEB_DEV_DESC": "Nous créons des interfaces modernes et réactives pour une expérience utilisateur optimale.",
         "SWE_DESC": "Nous développons des solutions logicielles sur mesure, robustes et performantes.",
-        "BI_DESC": "Nous transformons les données en informations stratégiques pour de meilleures décisions."
+        "BI_DESC": "Nous transformons les données en informations stratégiques pour de meilleures décisions.",
+        "FIELDS_SUB": "Notre expertise IT au service de divers secteurs."
     }
 }

@@ -25,18 +25,20 @@
                         </div>
                         <div class="d-flex mb-2">
                             <i class="bi bi-geo-alt text-primary me-2"></i>
-                            <p class="mb-0">Viale Monza 1, Milano</p>
+                            <p class="mb-0">
+                                <a target="_blank" class="text-light" href="https://maps.app.goo.gl/PkgcBbdihJV3njyz6">Viale Monza 1, Milano</a>
+                            </p>
                         </div>
                         <div class="d-flex mb-2">
                             <i class="bi bi-envelope-open text-primary me-2"></i>
                             <p class="mb-0">
-                                <a class="text-light" href="mailto:info@eristech.it">info@eristech.it</a>
+                                <a target="_blank" class="text-light" href="mailto:info@eristech.it">info@eristech.it</a>
                             </p>
                         </div>
                         <div class="d-flex mb-2">
                             <i class="bi bi-telephone text-primary me-2"></i>
                             <p class="mb-0">
-                                <a class="text-light" href="tel:+390245490584">+390245490584</a>
+                                <a target="_blank" class="text-light" href="tel:+390245490584">+390245490584</a>
                             </p>
                         </div>
                         <div class="d-flex mb-2">
@@ -53,7 +55,7 @@
             <div class="row justify-content-end">
                 <div class="col-lg-8 col-md-6">
                     <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
-                        <p class="mb-0">&copy; Eris Tech Srl. <span data-key="RIGHTS_RESERVED"></span>. <span data-key="P_IVA"></span>: 09286090965 - <span data-key="SHARE_CAPITAL"></span>: 20.000,00€ i.v.
+                        <p class="mb-0">&copy; Eris Tech Srl. <span data-key="RIGHTS_RESERVED"></span>. <span data-key="P_IVA"></span>: 09286090965 - <span data-key="SHARE_CAPITAL"></span>: 20.000,00€ i.v. PEC: eristech@pec.it
 						
 						<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
 						<span data-key="DESIGNED_BY"></span> <a class="text-white border-bottom" href="https://htmlcodex.com">HTML Codex</a></p>
