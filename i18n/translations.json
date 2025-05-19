@@ -65,7 +65,8 @@
         "WEB_DEV_DESC": "We build modern and properly designed systems for an effective user experience.",
         "SWE_DESC": "We develop custom software solutions that are robust, scalable, and high-performing.",
         "BI_DESC": "We turn data into strategic insights for smarter business decisions.",
-        "FIELDS_SUB": "Our IT expertise serving a wide range of industries."
+        "FIELDS_SUB": "Our IT expertise serving a wide range of industries.",
+        "FAIR_PRICES": "Fair prices"
     },
     "it": {
         "features": "Nostre funzionalità",
@@ -133,7 +134,8 @@
         "WEB_DEV_DESC": "Sviluppiamo sistemi moderni e manutenibili per garantire esperienze utente intuitive ed efficaci.",
         "SWE_DESC": "Realizziamo soluzioni software su misura, robuste, scalabili e ad alte prestazioni.",
         "BI_DESC": "Trasformiamo i dati in informazioni strategiche per decisioni aziendali più efficaci.",
-        "FIELDS_SUB": "a nostra esperienza IT al servizio di diversi mercati."
+        "FIELDS_SUB": "a nostra esperienza IT al servizio di diversi mercati.",
+        "PROFESSIONAL_STAFF": "Staff professionale"
     },
     "fr": {
         "features": "Nos fonctionnalités",
@@ -201,6 +203,7 @@
         "WEB_DEV_DESC": "Nous créons des interfaces modernes et réactives pour une expérience utilisateur optimale.",
         "SWE_DESC": "Nous développons des solutions logicielles sur mesure, robustes et performantes.",
         "BI_DESC": "Nous transformons les données en informations stratégiques pour de meilleures décisions.",
-        "FIELDS_SUB": "Notre expertise IT au service de divers secteurs."
+        "FIELDS_SUB": "Notre expertise IT au service de divers secteurs.",
+        "FAIR_PRICES": "Fair prices"
     }
 }
