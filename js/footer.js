@@ -26,7 +26,7 @@
                         <div class="d-flex mb-2">
                             <i class="bi bi-geo-alt text-primary me-2"></i>
                             <p class="mb-0">
-                                <a target="_blank" class="text-light" href="https://maps.app.goo.gl/PkgcBbdihJV3njyz6">Viale Monza 1, Milano</a>
+                                <a target="_blank" class="text-light" href="https://maps.app.goo.gl/PkgcBbdihJV3njyz6">Viale Monza 1, Milano / <span data-key="SEVENTH_FLOOR"></span></a>
                             </p>
                         </div>
                         <div class="d-flex mb-2">
