@@ -202,10 +202,30 @@
     </div>
 
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const miaModale = new bootstrap.Modal(document.getElementById('cookiesModal'));
-            
-            miaModale.show();
+        document.addEventListener('DOMContentLoaded', () => {
+            const COOKIE_POLICY = "cookie-policy";
+            const lastReadRaw = localStorage.getItem(COOKIE_POLICY);
+            const today = new Date();
+
+            if (lastReadRaw) {
+                const lastRead = new Date(lastReadRaw);
+
+                const diffInMonths = (today.getFullYear() - lastRead.getFullYear()) * 12 + (today.getMonth() - lastRead.getMonth());
+
+                if (diffInMonths >= 6) {
+                    const cookiesModal = new bootstrap.Modal(document.getElementById('cookiesModal'));
+                    cookiesModal?.show();
+
+                    const today = new Date().toISOString();
+                    localStorage.setItem("cookie-policy", today);
+                }
+            } else {
+                const cookiesModal = new bootstrap.Modal(document.getElementById('cookiesModal'));
+                cookiesModal?.show();
+
+                const today = new Date().toISOString();
+                localStorage.setItem("cookie-policy", today);
+            }
         });
     </script>
 
