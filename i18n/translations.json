@@ -45,7 +45,12 @@
         "SHARE_CAPITAL": "Share capital",
         "P_IVA": "VAT number",
         "COOKIES_MODAL_TITLE": "Cookies info",
-        "COOKIES_MODAL_DESC": "This site uses only necessary technical cookies for the proper functioning of the pages. Profiling cookies or cookies for marketing purposes are not used."
+        "COOKIES_MODAL_DESC": "This site uses only necessary technical cookies for the proper functioning of the pages. Profiling cookies or cookies for marketing purposes are not used.",
+        "FINANCIAL_SERVICES": "Financial services",
+        "INSURANCE": "Insurance",
+        "EMERGENCY": "Emergency",
+        "ENERGY": "Energy",
+        "FIELDS": "Fields"
     },
     "it": {
         "features": "Nostre funzionalità",
@@ -92,7 +97,13 @@
         "SHARE_CAPITAL": "Capitale sociale",
         "P_IVA": "P. IVA",
         "COOKIES_MODAL_TITLE": "Uso dei cookie",
-        "COOKIES_MODAL_DESC": "Questo sito utilizza solo cookie tecnici necessari al corretto funzionamento delle pagine. Non vengono utilizzati cookie di profilazione o per finalità di marketing."
+        "COOKIES_MODAL_DESC": "Questo sito utilizza solo cookie tecnici necessari al corretto funzionamento delle pagine. Non vengono utilizzati cookie di profilazione o per finalità di marketing.",
+        "OUR_SERVICES": "I nostri servizi",
+        "FINANCIAL_SERVICES": "Servizi finanziari",
+        "INSURANCE": "Assicurazioni",
+        "EMERGENCY": "Emergenze",
+        "ENERGY": "Energia",
+        "FIELDS": "Settori"
     },
     "fr": {
         "features": "Nos fonctionnalités",
@@ -140,6 +151,11 @@
         "SHARE_CAPITAL": "Share capital",
         "P_IVA": "VAT number",
         "COOKIES_MODAL_TITLE": "Cookies info",
-        "COOKIES_MODAL_DESC": "Questo sito utilizza solo cookie tecnici necessari al corretto funzionamento delle pagine. Non vengono utilizzati cookie di profilazione o per finalità di marketing."
+        "COOKIES_MODAL_DESC": "Questo sito utilizza solo cookie tecnici necessari al corretto funzionamento delle pagine. Non vengono utilizzati cookie di profilazione o per finalità di marketing.",
+        "FINANCIAL_SERVICES": "Financial services",
+        "INSURANCE": "Insurance",
+        "EMERGENCY": "Emergency",
+        "ENERGY": "Energy",
+        "FIELDS": "Fields"
     }
 }
