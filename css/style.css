@@ -570,3 +570,8 @@ footer .logo {
     display: grid;
     place-items: center;
 }
+
+.owl-stage {
+    display: flex;
+    align-items: center;
+}
