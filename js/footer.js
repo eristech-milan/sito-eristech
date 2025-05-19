@@ -29,7 +29,9 @@
                         </div>
                         <div class="d-flex mb-2">
                             <i class="bi bi-envelope-open text-primary me-2"></i>
-                            <p class="mb-0">info@eristech.it</p>
+                            <p class="mb-0">
+                                <a class="text-light" href="mailto:info@eristech.it">info@eristech.it</a>
+                            </p>
                         </div>
                         <div class="d-flex mb-2">
                             <i class="bi bi-telephone text-primary me-2"></i>

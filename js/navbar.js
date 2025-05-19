@@ -18,7 +18,10 @@
                     <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>Viale Monza 1,
                         Milano</small>
                     <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+39 0245490584</small>
-                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>info@eristech.it</small>
+                    <small class="text-light">
+                        <i class="fa fa-envelope-open me-2"></i>
+                        <a class="text-light" href="mailto:info@eristech.it">info@eristech.it</a>
+                    </small>
                 </div>
             </div>
         </div>
