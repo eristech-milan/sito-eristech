@@ -47,8 +47,8 @@
                 <span class="fa fa-bars"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav mx-auto py-0">
-                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                <div id="nav-pages" class="navbar-nav mx-auto py-0">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
                     <a href="about.html" class="nav-item nav-link" data-key="about">About</a>
                     <a href="service.html" class="nav-item nav-link" data-key="services">Services</a>
                     <a href="contact.html" class="nav-item nav-link" data-key="contact">Contact</a>
@@ -63,6 +63,18 @@
     `;
 
     body.insertBefore(header, body.firstChild);
+
+    const currentPage = window.location.pathname.split("/").pop() || "index.html";
+
+    document.querySelectorAll("#nav-pages .nav-link").forEach(link => {
+        const linkPage = link.getAttribute("href");
+
+        if (linkPage === currentPage || (linkPage === "index.html" && currentPage === "")) {
+            link.classList.add("active");
+        } else {
+            link.classList.remove("active");
+        }
+    });
 
     // 🔹 Aggiorna il titolo della scheda del browser dinamicamente
     document.addEventListener("DOMContentLoaded", function () {
