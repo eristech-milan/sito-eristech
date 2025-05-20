@@ -37,7 +37,11 @@
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
             <a href="index.html" class="navbar-brand p-0">
-                <img class="logo" src="../img/logo.png" alt="Eris Tech logo">
+                <picture>
+                    <source media="(max-width: 991px)" srcset="../img/logo.png">
+                    <source media="(min-width: 992px)" srcset="../img/logo-white.png">
+                    <img class="logo" src="../img/logo.png" alt="Eris Tech logo">
+                </picture>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
