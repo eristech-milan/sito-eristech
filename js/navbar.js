@@ -52,6 +52,7 @@
                     <a href="about.html" class="nav-item nav-link" data-key="about">About</a>
                     <a href="service.html" class="nav-item nav-link" data-key="services">Services</a>
                     <a href="contact.html" class="nav-item nav-link" data-key="contact">Contact</a>
+                    <a href="privacy.html" class="nav-item nav-link">Privacy</a>
                 </div>
                 <img src="../i18n/flags/uk.png" id="flag-en" alt="English" style="width:30px; cursor:pointer; margin:5px;">
                 <img src="../i18n/flags/it.png" id="flag-it" alt="Italiano" style="width:30px; cursor:pointer; margin:5px;">
