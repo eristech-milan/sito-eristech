@@ -37,11 +37,7 @@
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
             <a href="index.html" class="navbar-brand p-0">
-                <picture>
-                    <source media="(max-width: 991px)" srcset="../img/logo.png">
-                    <source media="(min-width: 992px)" srcset="../img/logo-white.png">
-                    <img class="logo" src="../img/logo.png" alt="Eris Tech logo">
-                </picture>
+                <img id="nav-logo" class="logo" src="" alt="Eris Tech logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
@@ -100,4 +96,22 @@
             console.log("Titolo predefinito:", document.title);
         }
     });
+
+    const logo = document.getElementById('nav-logo');
+
+    function updateLogo() {
+        const navbar = document.querySelector('.navbar');
+        const rect = navbar.getBoundingClientRect();
+
+        if(rect.top > 0 && window.innerWidth >= 992) {
+            logo.src = '../img/logo-white.png';
+        }
+        else {
+            logo.src = '../img/logo.png';
+        }
+    }
+
+    window.addEventListener('load', updateLogo);
+    window.addEventListener('scroll', updateLogo);
+    window.addEventListener('resize', updateLogo);
 })();
