@@ -522,12 +522,6 @@ h6,
     padding-left: 10px;
 }
 
-@media (min-width: 767.98px) {
-    .footer-about {
-        margin-bottom: -75px;
-    }
-}
-
 nav .logo {
     max-height: 3rem;
 }
