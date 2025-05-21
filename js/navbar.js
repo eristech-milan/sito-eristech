@@ -17,7 +17,7 @@
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
                     <small class="me-3 text-light">
                         <i class="fa fa-map-marker-alt me-2"></i>
-                        <a target="_blank" class="text-light" href="https://maps.app.goo.gl/PkgcBbdihJV3njyz6">Viale Monza 1, Milano / <span data-key="SEVENTH_FLOOR"></span></a>
+                        <a target="_blank" class="text-light" href="https://maps.app.goo.gl/PkgcBbdihJV3njyz6">Viale Monza 1 / <span data-key="SEVENTH_FLOOR"></span>, 20125 Milano</a>
                     </small>
                     <small class="me-3 text-light">
                         <i class="fa fa-phone-alt me-2"></i>
