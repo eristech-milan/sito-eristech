@@ -575,3 +575,9 @@ footer .logo {
     display: flex;
     align-items: center;
 }
+
+.clients-carousel img {
+    height: 80px; /* imposta l'altezza desiderata */
+    object-fit: contain; /* mantiene le proporzioni e adatta l'immagine dentro il contenitore */
+    width: 100%; /* opzionale, garantisce che l'immagine si adatti alla larghezza disponibile */
+}
