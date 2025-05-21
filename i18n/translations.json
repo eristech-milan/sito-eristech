@@ -29,7 +29,7 @@
         "PROFESSIONAL_STAFF": "Professionalism",
         "CALL_TO_ASK_ANY_QUESTION": "Call us",
         "OUR_SERVICES": "Our services",
-        "CUSTOM_SOLUTIONS": "Custom IT Solutions for Your Successful Business",
+        "CUSTOM_SOLUTIONS": "Our IT services at the service of your success",
         "CONTACT_US": "Contact us",
         "CALL_FOR_QUEST": "Call to ask any question",
         "INFO_EMAIL": "Email us for more info",
@@ -89,7 +89,8 @@
         "DATA_PORTABILITY": "Right to data portability",
         "APPLY_RIGHTS": "To exercise your rights, you must send us a written communication via email to info@eristech.it, attaching a copy of your identity document and details of the right you wish to exercise.",
         "FLEXIBILITY": "Flexibility",
-        "INCLUSIVE_CULTURE": "Inclusive culture"
+        "INCLUSIVE_CULTURE": "Inclusive culture",
+        "FIELDS_SUBTITLE": "We support companies from various sectors on their digital transformation journey"
     },
     "it": {
         "features": "Nostre funzionalità",
@@ -120,7 +121,7 @@
         "ABOUT_DESCR": "Eris Tech è una realtà giovane e dinamica, nata con l'obiettivo di offrire servizi di qualità e garantire la piena soddisfazione dei propri clienti. Siamo specializzati nella progettazione, sviluppo e integrazione di soluzioni IT per le aziende, fornendo consulenza per supportare l'innovazione tecnologica e la trasformazione digitale. Affianchiamo imprese e professionisti nell'ottimizzazione dei processi, nella gestione dell'infrastruttura IT e dei contenuti digitali, mettendo a disposizione competenze consolidate e un approccio orientato al risultato. Grazie all'esperienza maturata in contesti complessi e diversificati, siamo in grado di accompagnare i nostri clienti in ogni fase del processo decisionale, tecnologico e di business. Il vero motore di Eris Tech sono le persone: professionisti appassionati, in costante aggiornamento, che credono nel valore dell'evoluzione continua e nella forza dell'innovazione.",
         "FAIR_PRICES": "Costi competitivi",
         "CALL_TO_ASK_ANY_QUESTION": "Chiamaci",
-        "CUSTOM_SOLUTIONS": "Soluzioni IT custom per il tuo business",
+        "CUSTOM_SOLUTIONS": "I nostri servizi IT al servizio del tuo successo",
         "CONTACT_US": "Contattaci",
         "CALL_FOR_QUEST": "Chiama per chiedere informazioni",
         "INFO_EMAIL": "Email per informazioni",
@@ -181,7 +182,8 @@
         "DATA_PORTABILITY": "Diritto di portabilità dei dati",
         "APPLY_RIGHTS": "Per esercitare i tuoi diritti dovrai inviarci una comunicazione scritta via email all'indirizzo info@eristech.it, allegando una copia del tuo documento d'identità ed i dettagli del diritto che desideri esercitare.",
         "FLEXIBILITY": "Flessibilità",
-        "INCLUSIVE_CULTURE": "Cultura inclusiva"
+        "INCLUSIVE_CULTURE": "Cultura inclusiva",
+        "FIELDS_SUBTITLE": "Accompagniamo aziende di diversi settori nel percorso di trasformazione digitale"
     },
     "fr": {
         "features": "Nos fonctionnalités",
@@ -213,7 +215,7 @@
         "PROFESSIONAL_STAFF": "Professionnalisme",
         "CALL_TO_ASK_ANY_QUESTION": "Appelez pour plus d'informations",
         "OUR_SERVICES": "Nos services",
-        "CUSTOM_SOLUTIONS": "Solutions informatiques personnalisées pour la réussite de votre entreprise",
+        "CUSTOM_SOLUTIONS": "Nos services informatiques au service de votre réussite",
         "CONTACT_US": "Contactez-nous",
         "CALL_FOR_QUEST": "Appelez pour toute question",
         "INFO_EMAIL": "Envoyez-nous un e-mail pour plus d'informations",
@@ -273,6 +275,7 @@
         "DATA_PORTABILITY": "Droit à la portabilité des données",
         "APPLY_RIGHTS": "Pour exercer vos droits, vous devez nous envoyer une communication écrite par e-mail à l'adresse info@eristech.it, en joignant une copie de votre pièce d'identité ainsi que les détails du droit que vous souhaitez exercer.",
         "FLEXIBILITY": "Flexibilité",
-        "INCLUSIVE_CULTURE": "Culture inclusive"
+        "INCLUSIVE_CULTURE": "Culture inclusive",
+        "FIELDS_SUBTITLE": "Nous accompagnons des entreprises de différents secteurs dans leur parcours de transformation numérique"
     }
 }
