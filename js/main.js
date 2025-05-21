@@ -153,7 +153,8 @@
 
     // per carousell Info tech
     $(document).ready(function () {
-        const url = "https://saurav.tech/NewsAPI/top-headlines/category/technology/us.json";
+        const API_KEY = "dc2e3606550247d29b8bc6383081cdac";
+        const url = "https://newsapi.org/v2/everything?q=machine+learning&from=2025-05-10&sortBy=publishedAt&pageSize=30&language=en&apiKey=" + API_KEY;
 
         fetch(url)
             .then(response => response.json())
