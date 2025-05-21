@@ -21,7 +21,7 @@
                     </small>
                     <small class="me-3 text-light">
                         <i class="fa fa-phone-alt me-2"></i>
-                        <a target="_blank" class="text-light" href="tel:+390245490584">+39 (02) 45490584</a>
+                        <a target="_blank" class="text-light" href="tel:+390245490584">+39 0245490584</a>
                     </small>
                     <small class="text-light">
                         <i class="fa fa-envelope-open me-2"></i>
