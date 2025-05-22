@@ -579,3 +579,12 @@ footer .logo {
     object-fit: contain; /* mantiene le proporzioni e adatta l'immagine dentro il contenitore */
     width: 100%; /* opzionale, garantisce che l'immagine si adatti alla larghezza disponibile */
 }
+
+.map-placeholder {
+    background: var(--primary);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}

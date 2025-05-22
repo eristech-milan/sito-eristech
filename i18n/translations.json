@@ -92,7 +92,8 @@
         "INCLUSIVE_CULTURE": "Inclusive culture",
         "FIELDS_SUBTITLE": "We support companies from various sectors on their digital transformation journey",
         "ACCEPT": "Accept",
-        "DECLINE": "Decline"
+        "DECLINE": "Decline",
+        "COOKIES_PLACEHOLDER": "Accept cookies to enable this feature"
     },
     "it": {
         "features": "Nostre funzionalità",
@@ -187,7 +188,8 @@
         "INCLUSIVE_CULTURE": "Cultura inclusiva",
         "FIELDS_SUBTITLE": "Accompagniamo aziende di diversi settori nel percorso di trasformazione digitale",
         "ACCEPT": "Accept",
-        "DECLINE": "Decline"
+        "DECLINE": "Decline",
+        "COOKIES_PLACEHOLDER": "Accetta l'uso dei cookie per sbloccare questa funzionalità"
     },
     "fr": {
         "features": "Nos fonctionnalités",
@@ -282,6 +284,7 @@
         "INCLUSIVE_CULTURE": "Culture inclusive",
         "FIELDS_SUBTITLE": "Nous accompagnons des entreprises de différents secteurs dans leur parcours de transformation numérique",
         "ACCEPT": "Accept",
-        "DECLINE": "Decline"
+        "DECLINE": "Decline",
+        "COOKIES_PLACEHOLDER": "Acceptez l'utilisation des cookies pour activer cette fonctionnalité"
     }
 }
