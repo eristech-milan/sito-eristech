@@ -43,7 +43,9 @@
                         </div>
                         <div class="d-flex mb-2">
                             <i class="bi bi-linkedin text-primary me-2"></i>
-                            <p class="mb-0">Inserire link</p>
+                            <p class="mb-0">
+                                <a target="_blank" class="text-light" href="https://www.linkedin.com/company/eristechsrl">LinkedIn</a>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -51,7 +53,7 @@
         </div>
     </div>
     <div class="container-fluid text-white p-4 text-center" style="background: #061429;">
-        <p class="m-1">&copy; Eris Tech Srl. <span data-key="RIGHTS_RESERVED"></span>.</p>
+        <p class="m-1">&copy; Eris Tech Srl</p>
         <p class="m-1"><span data-key="P_IVA"></span>: 09286090965 | <span data-key="SHARE_CAPITAL"></span>: 20.000,00€ i.v. | PEC: eristech@pec.it</p>
         <p class="m-1"><span data-key="DESIGNED_BY"></span> <a class="text-white border-bottom" href="https://htmlcodex.com">HTML Codex</a></p>
     </div>
