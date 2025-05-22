@@ -129,8 +129,8 @@
 
     // per carousell Info tech
     $(document).ready(function () {
-        const API_KEY = "dc2e3606550247d29b8bc6383081cdac";
-        const url = "https://newsapi.org/v2/everything?q=machine+learning&from=2025-05-10&sortBy=publishedAt&pageSize=30&language=en&apiKey=" + API_KEY;
+        const API_KEY = "e7aa520e51b401a6afd037945d282c74";
+        const url = "https://gnews.io/api/v4/top-headlines?category=technology&lang=en&apikey=" + API_KEY;
 
         fetch(url)
             .then(response => response.json())
@@ -147,7 +147,7 @@
                         <div class="col wow slideInUp" data-wow-delay="0.3s">
                             <div class="blog-item bg-light rounded overflow-hidden h-100 d-flex flex-column">
                                 <div class="blog-img position-relative overflow-hidden" style="height: 200px;">
-                                    <img class="img-fluid h-100 object-fit-cover" src="${article.urlToImage || 'placeholder.jpg'}" alt="News image">
+                                    <img class="img-fluid h-100 object-fit-cover" src="${article.image || 'placeholder.jpg'}" alt="News image">
                                 </div>
                                 <div class="p-4 d-flex flex-column flex-grow-1">
                                     <div class="d-flex mb-3">
