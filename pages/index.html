@@ -144,7 +144,7 @@
     </div>
 
     <!-- Blog Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div id="tech-news-section" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
                 <h5 class="fw-bold text-primary text-uppercase" data-key="LATEST_NEWS"></h5>
@@ -186,6 +186,11 @@
                 <div class="modal-body bg-light rounded">
                     <p data-key="COOKIES_MODAL_DESC"></p>
                 </div>
+                <div class="modal-footer d-flex justify-content-around">
+                    <button id="declineCookies" type="button" class="btn btn-danger" data-bs-dismiss="modal"
+                        data-key="DECLINE"></button>
+                    <button id="acceptCookies" type="button" class="btn btn-primary" data-key="ACCEPT"></button>
+                </div>
             </div>
         </div>
     </div>
@@ -193,28 +198,52 @@
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const COOKIE_POLICY = "cookie-policy";
+            const ARE_COOKIES_ACCEPTED = "are-cookies-accepted";
+
+            const acceptBtn = document.getElementById("acceptCookies");
+            const declineBtn = document.getElementById("declineCookies");
+            const newsSection = document.getElementById("tech-news-section");
+
             const lastReadRaw = localStorage.getItem(COOKIE_POLICY);
-            const today = new Date();
+            const lastRead = lastReadRaw ? new Date(lastReadRaw) : null;
 
-            if (lastReadRaw) {
-                const lastRead = new Date(lastReadRaw);
+            const now = new Date();
+            let diffInMonths = 999;
 
-                const diffInMonths = (today.getFullYear() - lastRead.getFullYear()) * 12 + (today.getMonth() - lastRead.getMonth());
+            if (lastRead) {
+                diffInMonths = (now.getFullYear() - lastRead.getFullYear()) * 12 + (now.getMonth() - lastRead.getMonth());
+            }
 
-                if (diffInMonths >= 6) {
-                    const cookiesModal = new bootstrap.Modal(document.getElementById('cookiesModal'));
-                    cookiesModal?.show();
-
-                    const today = new Date().toISOString();
-                    localStorage.setItem("cookie-policy", today);
-                }
-            } else {
+            if (!lastReadRaw || diffInMonths >= 6) {
                 const cookiesModal = new bootstrap.Modal(document.getElementById('cookiesModal'));
                 cookiesModal?.show();
-
-                const today = new Date().toISOString();
-                localStorage.setItem("cookie-policy", today);
             }
+
+            acceptBtn.addEventListener("click", () => {
+                localStorage.setItem(ARE_COOKIES_ACCEPTED, true);
+                localStorage.setItem(COOKIE_POLICY, new Date().toISOString());
+
+                const script = document.createElement('script');
+                script.src = "../js/newsRenderer.js";
+                script.async = true;
+
+                document.head.appendChild(script);
+
+                newsSection.style.display = "block";
+
+                const modal = bootstrap.Modal.getInstance(document.getElementById('cookiesModal'));
+                modal.hide();
+            });
+
+            declineBtn.addEventListener("click", () => {
+                localStorage.setItem(ARE_COOKIES_ACCEPTED, false);
+                localStorage.setItem(COOKIE_POLICY, new Date().toISOString());
+
+                newsSection.style.display = "none";
+
+                const modal = bootstrap.Modal.getInstance(document.getElementById('cookiesModal'));
+                modal.hide();
+            });
         });
     </script>
 

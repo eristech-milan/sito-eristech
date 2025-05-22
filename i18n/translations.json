@@ -90,7 +90,9 @@
         "APPLY_RIGHTS": "To exercise your rights, you must send us a written communication via email to info@eristech.it, attaching a copy of your identity document and details of the right you wish to exercise.",
         "FLEXIBILITY": "Flexibility",
         "INCLUSIVE_CULTURE": "Inclusive culture",
-        "FIELDS_SUBTITLE": "We support companies from various sectors on their digital transformation journey"
+        "FIELDS_SUBTITLE": "We support companies from various sectors on their digital transformation journey",
+        "ACCEPT": "Accept",
+        "DECLINE": "Decline"
     },
     "it": {
         "features": "Nostre funzionalità",
@@ -183,7 +185,9 @@
         "APPLY_RIGHTS": "Per esercitare i tuoi diritti dovrai inviarci una comunicazione scritta via email all'indirizzo info@eristech.it, allegando una copia del tuo documento d'identità ed i dettagli del diritto che desideri esercitare.",
         "FLEXIBILITY": "Flessibilità",
         "INCLUSIVE_CULTURE": "Cultura inclusiva",
-        "FIELDS_SUBTITLE": "Accompagniamo aziende di diversi settori nel percorso di trasformazione digitale"
+        "FIELDS_SUBTITLE": "Accompagniamo aziende di diversi settori nel percorso di trasformazione digitale",
+        "ACCEPT": "Accept",
+        "DECLINE": "Decline"
     },
     "fr": {
         "features": "Nos fonctionnalités",
@@ -276,6 +280,8 @@
         "APPLY_RIGHTS": "Pour exercer vos droits, vous devez nous envoyer une communication écrite par e-mail à l'adresse info@eristech.it, en joignant une copie de votre pièce d'identité ainsi que les détails du droit que vous souhaitez exercer.",
         "FLEXIBILITY": "Flexibilité",
         "INCLUSIVE_CULTURE": "Culture inclusive",
-        "FIELDS_SUBTITLE": "Nous accompagnons des entreprises de différents secteurs dans leur parcours de transformation numérique"
+        "FIELDS_SUBTITLE": "Nous accompagnons des entreprises de différents secteurs dans leur parcours de transformation numérique",
+        "ACCEPT": "Accept",
+        "DECLINE": "Decline"
     }
 }
