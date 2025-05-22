@@ -144,7 +144,7 @@
                     const date = new Date(article.publishedAt).toDateString();
 
                     newsItems += `
-                        <div class="col wow slideInUp" data-wow-delay="0.3s">
+                        <div class="wow slideInUp" data-wow-delay="0.3s" style="height: 100%;">
                             <div class="blog-item bg-light rounded overflow-hidden h-100 d-flex flex-column">
                                 <div class="blog-img position-relative overflow-hidden" style="height: 200px;">
                                     <img class="img-fluid h-100 object-fit-cover" src="${article.image || 'placeholder.jpg'}" alt="News image">
@@ -152,7 +152,7 @@
                                 <div class="p-4 d-flex flex-column flex-grow-1">
                                     <div class="d-flex mb-3">
                                         <small class="me-3">
-                                            <i class="far fa-user text-primary me-2"></i>${article.author ?? 'Unkown'}
+                                            <i class="far fa-user text-primary me-2"></i>${article.source?.name ?? 'Unkown'}
                                         </small>
                                         <small>
                                             <i class="far fa-calendar-alt text-primary me-2"></i>${date}
