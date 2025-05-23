@@ -34,8 +34,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const stylesheets = `<link href="../css/nunito.css" rel="stylesheet">
                         <link href="../css/rubik.css" rel="stylesheet">
-                        <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-                        <link href="../lib/animate/animate.min.css" rel="stylesheet">
+                        <link href="../modules/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+                        <link href="../modules/animate/animate.min.css" rel="stylesheet">
                         <link href="../css/bootstrap.min.css" rel="stylesheet">
                         <link href="../css/style.css" rel="stylesheet">`;
 
