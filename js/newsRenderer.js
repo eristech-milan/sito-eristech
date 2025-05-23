@@ -49,7 +49,21 @@
                     items: 3,
                     margin: 20,
                     nav: false,
-                    dots: false
+                    dots: false,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        768: {
+                            items: 2
+                        },
+                        992: {
+                            items: 3
+                        },
+                        1400: {
+                            items: 4
+                        }
+                    }
                 });
             })
             .catch(error => console.error("Errore nel recupero delle notizie:", error));
