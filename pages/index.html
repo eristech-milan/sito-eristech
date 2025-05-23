@@ -204,7 +204,7 @@
             const declineBtn = document.getElementById("declineCookies");
             const newsSection = document.getElementById("tech-news-section");
 
-            const lastReadRaw = localStorage.getItem(COOKIE_POLICY);
+            const lastReadRaw = sessionStorage.getItem(COOKIE_POLICY);
             const lastRead = lastReadRaw ? new Date(lastReadRaw) : null;
 
             const now = new Date();
@@ -220,8 +220,8 @@
             }
 
             acceptBtn.addEventListener("click", () => {
-                localStorage.setItem(ARE_COOKIES_ACCEPTED, true);
-                localStorage.setItem(COOKIE_POLICY, new Date().toISOString());
+                sessionStorage.setItem(ARE_COOKIES_ACCEPTED, true);
+                sessionStorage.setItem(COOKIE_POLICY, new Date().toISOString());
 
                 const script = document.createElement('script');
                 script.src = "../js/newsRenderer.js";
@@ -236,8 +236,8 @@
             });
 
             declineBtn.addEventListener("click", () => {
-                localStorage.setItem(ARE_COOKIES_ACCEPTED, false);
-                localStorage.setItem(COOKIE_POLICY, new Date().toISOString());
+                sessionStorage.setItem(ARE_COOKIES_ACCEPTED, false);
+                sessionStorage.setItem(COOKIE_POLICY, new Date().toISOString());
 
                 newsSection.style.display = "none";
 

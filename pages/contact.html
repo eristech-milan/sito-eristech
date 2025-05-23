@@ -117,7 +117,7 @@
         const map = document.getElementById("map");
         const mapPlaceholder = document.getElementById("map-placeholder");
 
-        const areCookiesAccepted = localStorage.getItem("are-cookies-accepted");
+        const areCookiesAccepted = sessionStorage.getItem("are-cookies-accepted");
 
         if(areCookiesAccepted == "true") {
             map.style.display="block";
