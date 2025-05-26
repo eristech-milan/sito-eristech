@@ -93,7 +93,9 @@
         "FIELDS_SUBTITLE": "We support companies from various sectors on their digital transformation journey",
         "ACCEPT": "Accept",
         "DECLINE": "Decline",
-        "COOKIES_PLACEHOLDER": "Accept cookies to enable this feature"
+        "COOKIES_PLACEHOLDER": "Accept cookies to enable this feature",
+        "VISION_STRATEGY_DESC": "We turn your vision into reality",
+        "CREATIVE_INNOVATIVE_DESC": "Creative & Innovative Digital Solution"
     },
     "it": {
         "features": "Nostre funzionalità",
@@ -189,7 +191,9 @@
         "FIELDS_SUBTITLE": "Accompagniamo aziende di diversi settori nel percorso di trasformazione digitale",
         "ACCEPT": "Accept",
         "DECLINE": "Decline",
-        "COOKIES_PLACEHOLDER": "Accetta l'uso dei cookie per sbloccare questa funzionalità"
+        "COOKIES_PLACEHOLDER": "Accetta l'uso dei cookie per sbloccare questa funzionalità",
+        "VISION_STRATEGY_DESC": "Trasformiamo la tua vision in realtà",
+        "CREATIVE_INNOVATIVE_DESC": "Soluzione digitale creativa e innovativa"
     },
     "fr": {
         "features": "Nos fonctionnalités",
@@ -285,6 +289,8 @@
         "FIELDS_SUBTITLE": "Nous accompagnons des entreprises de différents secteurs dans leur parcours de transformation numérique",
         "ACCEPT": "Accept",
         "DECLINE": "Decline",
-        "COOKIES_PLACEHOLDER": "Acceptez l'utilisation des cookies pour activer cette fonctionnalité"
+        "COOKIES_PLACEHOLDER": "Acceptez l'utilisation des cookies pour activer cette fonctionnalité",
+        "VISION_STRATEGY_DESC": "Nous transformons votre vision en rèalitè",
+        "CREATIVE_INNOVATIVE_DESC": "Solution numèrique crèative et innovante"
     }
 }
