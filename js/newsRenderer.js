@@ -43,13 +43,13 @@
                 $(".tech-news-carousel").html(newsItems);
 
                 $(".tech-news-carousel").owlCarousel({
-                    autoplay: true,
-                    smartSpeed: 1000,
-                    loop: true,
+                    autoplay: false,
+                    smartSpeed: 500,
+                    loop: false,
                     items: 3,
                     margin: 20,
                     nav: false,
-                    dots: false,
+                    dots: true,
                     responsive: {
                         0: {
                             items: 1

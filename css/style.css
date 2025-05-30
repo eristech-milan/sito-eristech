@@ -588,3 +588,40 @@ footer .logo {
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
+
+.tech-news-carousel .owl-dots {
+    margin-top: 15px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.tech-news-carousel .owl-dot {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    background: #DDDDDD;
+    border-radius: 2px;
+    transition: .5s;
+}
+
+.tech-news-carousel .owl-dot.active {
+    width: 30px;
+    background: var(--primary);
+}
+
+.tech-news-carousel .owl-item.center {
+    position: relative;
+    z-index: 1;
+}
+
+.tech-news-carousel .owl-item .clients-item {
+    transition: .5s;
+}
+
+.tech-news-carousel .owl-item.center .clients-item {
+    background: #FFFFFF !important;
+    box-shadow: 0 0 30px #DDDDDD;
+}
